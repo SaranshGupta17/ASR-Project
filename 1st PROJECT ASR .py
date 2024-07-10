@@ -1,7 +1,7 @@
   #============================AUTOMATIC SPEECH RECOGNITION=========================#
 
 import speech_recognition as sr
-
+import sympy as sp
 
 
 operators = {
@@ -15,7 +15,7 @@ operators = {
     ")":"close"
 }
 
-import sympy as sp
+
 
 
 def calculate_expression(expression_str):
